@@ -1,0 +1,11 @@
+.features {
+  display: flex;
+}
+
+.features__item {
+  margin-right: 35px;
+  line-height: 1.1;
+}
+.features__item:last-child {
+  margin-right: 0;
+}

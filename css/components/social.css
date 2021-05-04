@@ -1,0 +1,43 @@
+.social {
+  margin-right: 73px;
+  display: flex;
+}
+
+.social__list {
+  display: flex;
+}
+
+.social__item {
+  list-style-type: none;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.social__item:last-child {
+  margin-right: 0;
+}
+
+.social__link {
+  display: block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+  opacity: 0.5;
+  position: relative;
+  background: center center no-repeat;
+}
+
+.social__link .social__link--vk {
+  background: url("../../img/vk.png");
+}
+
+.social__link .social__link--fb {
+  background: url("../../img/fb.png");
+}
+
+.social__link .social__link--ig {
+  background: url("../../img/ig.png");
+}
+
+.social__link .social__link--tw {
+  background: url("../../img/tw.png");
+}
