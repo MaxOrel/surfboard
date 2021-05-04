@@ -1,4 +1,4 @@
-@import url("http://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css");
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,700;0,800;1,300;1,400&display=swap");
 html,
 body {
@@ -75,7 +75,7 @@ img {
 }
 
 .hero {
-  background: url("../../img/coast.png") center top no-repeat;
+  background: url("../img/coast.png") center top no-repeat;
   background-size: cover;
   height: 100vh;
   min-height: 652px;
@@ -235,7 +235,7 @@ img {
   position: relative;
 }
 .benefits__item:before {
-  content: url("../../img/separator.png");
+  content: url("../img/separator.png");
   position: absolute;
   top: 30px;
   right: 0;
@@ -398,7 +398,7 @@ img {
 }
 
 .order-section {
-  background: url("../../img/grey.jpg") center top no-repeat;
+  background: url("../img/grey.jpg") center top no-repeat;
   max-width: 100%;
   box-sizing: border-box;
   color: #FFFFFF;
@@ -465,7 +465,7 @@ img {
   border-radius: 0;
 }
 .radio--checkbox .radio__visible:before {
-  background: url("../../img/tick.png") center center no-repeat;
+  background: url("../img/tick.png") center center no-repeat;
 }
 
 .radio__elem {
@@ -550,7 +550,7 @@ img {
 }
 
 .map-section {
-  background: url("../../img/map.png") center center no-repeat;
+  background: url("../img/map.png") center center no-repeat;
   max-width: 100%;
   box-sizing: border-box;
   background-size: cover;
@@ -589,17 +589,17 @@ img {
 }
 
 .social__link .social__link--vk {
-  background: url("../../img/vk.png");
+  background: url("../img/vk.png");
 }
 
 .social__link .social__link--fb {
-  background: url("../../img/fb.png");
+  background: url("../img/fb.png");
 }
 
 .social__link .social__link--ig {
-  background: url("../../img/ig.png");
+  background: url("../img/ig.png");
 }
 
 .social__link .social__link--tw {
-  background: url("../../img/tw.png");
+  background: url("../img/tw.png");
 }
